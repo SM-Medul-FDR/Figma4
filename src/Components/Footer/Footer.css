@@ -1,0 +1,13 @@
+
+
+
+.fmi{
+    @apply absolute md:top-[-230px] top-[-90px] 
+}
+.Fp{
+    @apply md:text-[16px] text-[12px] md:w-[250px] w-[150px] md:mt-[24px] md:mb-[16px] mt-[15px] mb-[10px]
+}
+
+
+
+

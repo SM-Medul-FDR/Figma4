@@ -1,0 +1,44 @@
+
+
+
+.slick-dots li button{
+    @apply text-[0px] h-1 w-1 bg-black rounded-full
+}
+.slick-dots{
+    @apply !flex justify-center gap-5
+}
+.slick-dots  .slick-active button{
+    @apply bg-[#fa7436] h-2 w-2
+}
+.mmm .slick-arrow{
+    @apply text-[40px] absolute top-[-58px] right-[12%] md:right-[7%] text-gray-300 hover:scale-[1.1] duration-150
+}
+.mmm .slick-next{
+    @apply text-[#fa7436] right-1
+}
+
+.dch2{
+    @apply md:text-[24px] text-[13px] font-medium text-[#222222] font-poppins
+}
+.dcp{
+    @apply text-[#666666] font-poppins font-normal text-[10px] md:text-[16px]
+}
+
+.price1{
+@apply line-through text-[#666666] font-poppins font-normal text-[10px] md:text-[16px]
+
+}
+.Pprice2{
+    @apply font-poppins font-semibold text-[#FA7436] text-[11px] md:text-[18px]
+}
+.Main_Single_Deals{
+    @apply hover:drop-shadow-lg duration-100
+}
+.ppp{
+    @apply text-[#666666]
+}
+
+
+
+
+

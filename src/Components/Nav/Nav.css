@@ -1,0 +1,33 @@
+
+
+.MainNav{
+    @apply flex justify-between items-center md:py-[32px] py-[12px] 
+}
+
+.Mlogo{
+    @apply md:h-[24px] h-[13px]
+}
+
+.menus{
+    @apply md:text-[16px] text-[10px] text-[#222222] font-poppins font-normal 
+    /* hover:text-[#fa7436]  */
+}
+.menus ul{
+    @apply flex md:gap-[32px] gap-[11px]
+}
+.menus ul li{
+    @apply hover:text-[#fa7436] transition-all duration-150
+}
+
+.Nav_buttons{
+    @apply flex gap-1
+}
+.Nav_buttons .a1 {
+    @apply flex items-center justify-center md:w-[160px] w-[60px] md:h-[50px] h-[25px] text-[#fa7436] hover:text-white hover:bg-[#fa7436] rounded-[5px] transition-all duration-150 md:text-[16px] text-[10px] font-poppins font-semibold      
+}
+.Nav_buttons .a2 {
+    @apply flex items-center justify-center md:w-[160px] w-[60px] md:h-[50px] h-[25px] hover:text-[#000] text-white bg-[#fa7436] rounded-[5px] transition-all duration-150 md:text-[16px] text-[10px] font-poppins font-semibold    
+}
+
+
+

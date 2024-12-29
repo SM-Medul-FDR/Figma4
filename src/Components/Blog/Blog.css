@@ -1,0 +1,16 @@
+
+.slick-dots li button{
+    @apply text-[0px] h-1 w-1 bg-black rounded-full
+}
+.slick-dots{
+    @apply !flex justify-center gap-5
+}
+.slick-dots  .slick-active button{
+    @apply bg-[#fa7436] h-2 w-2
+}
+.mm .slick-arrow{
+    @apply !text-[opx] !hidden
+}
+
+
+

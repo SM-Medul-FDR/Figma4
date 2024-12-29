@@ -1,0 +1,28 @@
+
+
+.banner{
+    @apply flex justify-between
+}
+
+.bannerHead{
+    @apply md:text-[64px] font-bold font-volkhov text-[#222222] md:w-[521px] w-[131px] md:pt-[96px] pt-[50px]
+}
+.BSpan{
+    @apply md:text-[64px] font-bold font-volkhov text-[#fa7436] md:w-[521px] w-[131px] animate-pulse 
+}
+
+.bannerPara{
+    @apply md:text-[20px] text-[11px] text-[#666666] font-poppins font-normal md:w-[494px] w-[151px] md:mt-[32px] mt-[14px] md:mb-[64px] mb-[18px]  
+}
+.bannerBtn{
+    @apply flex items-center justify-center md:w-[160px] w-[70px] md:h-[50px] h-[25px] text-[#fa7436] hover:text-white hover:bg-[#fa7436] rounded-[5px] transition-all duration-150 md:text-[16px] text-[8px] font-poppins font-semibold   border-[1px] border-[#fa7436]   
+}
+
+
+
+.BImg{
+    @apply  md:h-[493px] h-[241px] 
+}
+
+
+

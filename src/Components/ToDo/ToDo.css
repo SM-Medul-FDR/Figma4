@@ -1,0 +1,50 @@
+
+
+.TH2{
+    @apply md:text-[48px] font-bold font-volkhov text-[#222222] md:pt-[96px] pt-[50px]
+}
+.TDSpan{
+    @apply md:text-[48px] font-bold font-volkhov text-[#fa7436] md:w-[521px] w-[131px] animate-pulse 
+}
+
+
+.TP{
+    @apply md:text-[18px] text-[11px] text-[#666666] font-poppins font-normal md:w-[514px] w-[251px] md:mt-[32px] mt-[14px] md:mb-[64px] mb-[18px]  
+}
+
+.thic{
+    @apply absolute top-0 md:top-[40%] right-0 md:right-[6%]
+}
+
+.todo{
+    @apply md:h-[274px] h-[170px]
+}
+
+
+
+
+.tCon{
+    @apply absolute top-[13%] left-[10%]
+}
+.tic{
+    @apply md:h-[48px] h-[30px]
+}
+.T3{
+    @apply md:text-[24px] text-[14px] text-[#222222] font-poppins font-semibold md:mt-[48px] mt-[14px] md:mb-[16px] mb-[6px]
+}
+.TCP{
+    @apply text-[#666666] font-poppins font-normal md:w-[290px] w-[200px] md:mt-[16px] mt-[6px] md:mb-[64px] mb-[18px] text-[11px] md:text-[16px]
+}
+
+
+.TMSC{
+    @apply hover:drop-shadow-md hover:scale-[1.01] transition-all duration-[.2s]
+}
+
+
+
+
+
+
+
+
